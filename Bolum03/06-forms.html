@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php">
+        <input type="text" name="" id="">
+        <button type="submit">Kaydet</button>
+
+        <br><br>
+
+        <div>
+            <label for="name">Adınız</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Soyadınız</label>
+            <input type="text" name="" id="surname">
+        </div>
+        <button type="submit">Kaydet</button>
+
+        <br><br>
+
+        <!-- name özelliğine aynı değeri verdiğin zaman sadece bir seçim yapılabilir -->
+        <p>
+            En sevdiğin programlama dili hangisidir?
+        </p>
+        <input type="radio" name="" id="python">
+        <label for="python">Python</label>
+        <input type="radio" name="" id="java">
+        <label for="java">Java</label>
+        <input type="radio" name="" id="csharp">
+        <label for="csharp">C#</label>
+
+        <br><br>
+
+        <p>
+            Cinsiyeti seçiniz:
+        </p>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Kadın</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Erkek</label>
+
+        <br><br>
+
+        <p>
+            Hangisi programlama dilidir? (Birden fazla seçim yapılabilir)
+        </p>
+        <input type="checkbox" name="programming" id="css">
+        <label for="css">Css</label>
+        <input type="checkbox" name="programming" id="javascript">
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="programming" id="html">
+        <label for="html">Html</label>
+        <input type="checkbox" name="programming" id="perl">
+        <label for="perl">Perl</label>
+
+        <br><br>
+
+        <label for="intro">Kendini anlat</label>
+        <textarea name="" id="intro"></textarea>
+
+        <br><br>
+
+        <label for="cities">Şehir</label>
+        <select name="" id="cities">
+            <option value="">Seçiniz</option>
+            <option value="1">Adana</option>
+            <option value="6">Ankara</option>
+            <option value="16">Bursa</option>
+            <option value="34">İstanbul</option>
+        </select>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="" id="email">
+
+        <br><br>
+
+        <label for="parola">Parola</label>
+        <input type="password" name="" id="parola">
+
+        <br><br>
+
+        <button type="reset">Temizle</button>
+
+        <br><br>
+
+        <label for="birthday">Doğum Tarihi</label>
+        <input type="date" name="" id="birthday">
+    </form>
+</body>
+</html>
