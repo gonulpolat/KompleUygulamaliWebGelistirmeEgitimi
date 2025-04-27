@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+}
+.frontend {
+    background-color: yellow;
+}
+.frontend label {
+    text-decoration: line-through;
+}
+.backend {
+    background-color: darkblue;
+}

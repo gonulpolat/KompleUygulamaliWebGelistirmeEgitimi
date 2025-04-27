@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red; /* inherited property */
+        }
+        p {
+            border: 1px solid green; /* non-inherited property */
+        }
+        em {
+            border: inherit; /* artık inherit edilmeyen özelliği en yakındaki parent'tan inherit etti */
+        }
+        em {
+            color: initial; /* inherit edilen özellik artık kullanılmıyor, tarayıcı varsayılanı kullanılıyor */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1 id="page-title">Wewlcome To MovieApp</h1>
+            <p>
+                Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Cumque, quod?
+            </p>
+        </section>
+        <section>
+            <h2 id="page-subtitle">How it works?</h2>
+        </section>
+    </main>
+</body>
+</html>
